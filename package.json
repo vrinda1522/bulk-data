@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "begin": "nodemon app.js",
+    "begin": "nodemon server.js",
     "start": "npm run begin",
     "test": "jest"
   },

@@ -75,7 +75,6 @@ exports.bulkDelete = async (req, res) => {
       const results = [];
       const idsToUpdate = updates.map(item => item.id).filter(Boolean);
 
-      // Get existing records
       const existing = await Data.findAll({
         where: { id: idsToUpdate },
         attributes: ['id'],
