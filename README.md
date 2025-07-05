@@ -30,7 +30,8 @@
     - In config.json update the db credentials with your own postgres credentials.
     - Run command 'CREATE DATABASE bulkdata'.
     - For migration run 'npx sequelize-cli db:migrate'.
-    - To start the server run 'npm start'
+    - To start the server run 'npm start'.
+    - Check the APIs with Postman or any other platform with '/api/data' and change the API type accordingly.
 
     #### Steps to run tests
     - Run command 'cd backend-process' (if not in backend-process directory).
