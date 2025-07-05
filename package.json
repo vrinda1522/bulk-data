@@ -1,0 +1,22 @@
+{
+  "name": "backend-process",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "begin": "nodemon app.js",
+    "start": "npm run begin",
+    "test": "jest"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "cors": "^2.8.5",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "morgan": "~1.9.1"
+  },
+  "devDependencies": {
+    "jest": "^30.0.4",
+    "jest-mock": "^30.0.2",
+    "supertest": "^7.1.1"
+  }
+}
